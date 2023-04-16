@@ -1,13 +1,10 @@
+
 const express = require('express');
 const router = express.Router();
 
-console.log('users routes is loadeded ->');
+const usersConrtoller = require('../controllers/users_controller');
 
-const usersController = require('../controllers/users_controller');
-
-router.get('/profile',usersController.profile);
-
-
-
+router.get('/profile', usersConrtoller.profile);
+console.log("user router is loaded");
 
 module.exports = router;
