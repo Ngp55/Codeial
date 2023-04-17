@@ -8,3 +8,6 @@ router.get('/profile', usersConrtoller.profile);
 console.log("user router is loaded");
 
 module.exports = router;
+
+router.get('/sign-up' , usersConrtoller.signUp);
+router.get('/sign-in',usersConrtoller.signIn);
