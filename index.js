@@ -15,7 +15,16 @@ const passport = require('passport');
 const passportLocal = require('./config/passport-local-strategy');
 const MongoStore = require('connect-mongo');
 
+// const sassMiddleware = require('node-sass');
 
+
+// app.use(sassMiddleware({
+//     src:'/assets/scss',
+//     dest:'/assets/css',
+//     debug:true,
+//     outputStyle:'extended',
+//     prefix:'css'
+// }));
 
 app.use(express.urlencoded());//this line is deprecated
 //app.use(express.urlencoded({ extended: true }));//use this in the place of express.urlencoded
