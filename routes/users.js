@@ -1,17 +1,6 @@
-
 const express = require('express');
 const router = express.Router();
 const passport = require('passport');
-
-
-
-
-
-
-
-
-
-
 
 const usersConrtoller = require('../controllers/users_controller');
 
@@ -32,5 +21,7 @@ router.post('/create-session',passport.authenticate(
 
 
 router.get('/sign-out',usersConrtoller.destorySession);
+
+
 
 module.exports = router;
