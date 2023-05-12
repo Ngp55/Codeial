@@ -22,6 +22,46 @@ module.exports.create = function(req ,res){
         }
     });
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // const Comment = require('../models/comment');
 // const Post = require('../models/post');
 
